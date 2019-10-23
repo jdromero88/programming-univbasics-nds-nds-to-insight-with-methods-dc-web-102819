@@ -15,10 +15,8 @@ def directors_totals(nds)
   while d_i < nds.count do
     d_n = nds[d_i][:name]
     result[d_n[:name]] = gross_for_director(d_n)
-    puts d_n
     d_i += 1
   end
-  puts result
   result
 end
 
