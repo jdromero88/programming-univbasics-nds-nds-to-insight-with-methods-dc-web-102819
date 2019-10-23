@@ -10,10 +10,12 @@ def directors_totals(nds)
   #puts director_data[0][:name][1][:movies][1][:worldwide_gross]
   #puts gross_for_director(0)
   #puts nds[:movies][:worldwide_gross]
-  i = 0
-  while i < nds.count do
-    puts gross_for_director
-    i += 1
+  d_i = 0 #directors index
+  d_n = [] #directors name
+  while d_i < nds.count do
+    d_n = nds[d_i][:name]
+    puts d_n
+    d_i += 1
   end
 end
 
