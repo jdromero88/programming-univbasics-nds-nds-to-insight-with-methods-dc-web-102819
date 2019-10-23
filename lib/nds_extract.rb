@@ -18,6 +18,7 @@ def directors_totals(nds)
     puts d_n
     d_i += 1
   end
+  puts result
   result
 end
 
